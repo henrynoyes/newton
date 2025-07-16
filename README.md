@@ -1,3 +1,21 @@
+install with uv,
+```
+git clone git@github.com:henrynoyes/newton.git -b dev
+cd newton
+uv sync --extra dev --extra cu12
+```
+
+run examples,
+```
+uv run newton/examples/example_anymal_c_walk.py
+```
+or,
+```
+source .venv/bin/activate
+python3 newton/examples/example_anymal_c_walk.py
+```
+
+---
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/newton-physics/newton/main)
