@@ -28,7 +28,7 @@ jobs:
         git fetch origin
         git checkout main
         git rebase upstream/main
-        git push origin main
+        git push origin main --force-with-lease
     
     - name: Rebase dev
       run: |
